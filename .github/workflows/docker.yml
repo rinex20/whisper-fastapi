@@ -14,6 +14,7 @@ on:
       - '**.md' # Ignore changes to all .md files
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
 
 env:
   # Use docker.io for Docker Hub if empty
